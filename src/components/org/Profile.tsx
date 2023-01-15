@@ -57,7 +57,7 @@ export const Profile = () => {
                 <div className="d-flex flex-items-center mb-3 ">
 
                     {/* go back */}
-                    <a href="/github-portfolio" className="btn btn-outline">
+                    <a href="/Github-Portfolio" className="btn btn-outline">
                         Back
                     </a>
 
