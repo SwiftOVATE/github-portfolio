@@ -1,0 +1,25 @@
+.nonUnd p {
+  text-decoration: none !important;
+}
+
+.orgs p {
+  text-decoration: none !important;
+  color: gray !important;
+}
+
+.orgs:hover p {
+  text-decoration: none !important;
+  color: var(--accentdim0) !important;
+}
+
+#JavaScript {
+  background-color: #f1e05a;
+}
+
+#shell {
+  background-color: #89e051;
+}
+
+#html {
+  background-color: #e34c26;
+}

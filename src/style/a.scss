@@ -1,0 +1,95 @@
+#js{
+    color: #f1e05a;
+}
+
+#shell{
+    color: #89e051;
+}
+
+#html{
+    color: #e34c26;
+}
+
+.sty{
+    color: #f1e05a;
+    // js
+    color: #89e051;
+    // shell
+    color: #e34c26;
+    // html
+    color: #701516;
+    //ruby
+    color: #2b7489;
+    // ts
+    color: #2b7489;
+    // css
+    color: #563d7c;
+    // php
+    color: #4F5D95;
+    // python
+    color: #3572A5;
+    // java
+    color: #b07219;
+    // c
+    color: #555555;
+    // c++
+    color: #f34b7d;
+    // c#
+    color: #178600;
+    // go
+    color: #375eab;
+    // swift
+    color: #ffac45;
+    // kotlin
+    color: #F18E33;
+    // rust
+    color: #dea584;
+    // lua
+    color: #000080;
+    // perl
+    color: #0298c3;
+    // r
+    color: #198CE7;
+    // dart
+    color: #00B4AB;
+    // elixir
+    color: #6e4a7e;
+    // erlang
+    color: #B83998;
+    // haskell
+    color: #5e5086;
+    // ocaml
+    color: #3be133;
+    // scala
+    color: #c22d40;
+    // clojure
+    color: #db5855;
+    // groovy
+    color: #e69f56;
+}
+
+
+.repoCard { border: 1px solid #145DA0 !important; background-color: #fafdff !important; border-radius: 5px !important; transition: 0.15s; }
+
+.repoCard:hover { border-radius: 10px !important; filter: brightness(1.01); box-shadow: 0 0px 5px rgba(0, 92, 179, 0.7); transition: 0.15s; transform: scale(1.02); }
+
+.aTag { text-decoration: none !important; }
+
+.tName { color: #145DA0 !important; font-weight: 500 !important; font-size: 20px !important; }
+
+code { background-color: #ffffff !important; color: #000000 !important; font-size: 12px !important; user-select: text !important; padding: 0px !important; margin: 0px !important; border-radius: 0px !important; }
+
+code::after { content: "" !important; white-space: inherit !important; }
+
+.github-component { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important; }
+
+.repo-language-color { filter: brightness(125%) !important; border-radius: 50%; display: inline-block; height: 12px; position: relative; top: 2px; width: 12px; }
+
+.emoji { width: 18px; height: auto; vertical-align: middle; }
+
+.article h1, .article h2, .article h3, .article h4, .article .highlight { margin-bottom: 16px; }
+.article blockquote { color: #6a737d; border-left: 2px solid #959da5; padding-left: 16px; margin-bottom: 16px; }
+.article ul, .article ol { padding-left: 32px; margin-bottom: 16px; }
+.article li ul, .article li ol { padding-left: 16px; margin-bottom: 0px; }
+
+.min-height-full { min-height: 100vh; }
