@@ -8,9 +8,9 @@ export const AppRoutes = () => {
         <div>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/Github-Portfolio" element={<Home />} />
-                    <Route path="/Github-Portfolio/org/*" element={<Organization />} />
-                    <Route path="/org/*" element={<Organization />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/github-portfolio" element={<Home />} />
+                    <Route path="/github-portfolio/org/*" element={<Organization />} />
                 </Routes>
             </BrowserRouter>
         </div>
