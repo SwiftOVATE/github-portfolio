@@ -7,7 +7,7 @@ export const OrganizationList = () => {
         const ORG = data.map((item: any) => {
             return (
                 <div className="col-6 col-md-12 col-lg-6 col-xl-4 mb-3 orgs" key={item.id}>
-                    <a href={"org/" + item.login} className="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+                    <a rel="noreferrer" href={"/github-portfolio/org/" + item.login} className="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
                         <img src={item.avatar_url} width={64} height={64} className="mx-auto rounded-1 mb-3" alt="avatar_url" />
                         <p className="f3 lh-condensed text-center gray-dark mb-0 mt-1">
                             {item.login}
